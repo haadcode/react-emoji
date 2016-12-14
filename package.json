@@ -2,7 +2,7 @@
   "name": "react-emoji",
   "version": "0.4.4",
   "description": "An emoji mixin for React",
-  "main": "dist/react-emoji.js",
+  "main": "src/react-emoji.js",
   "scripts": {
     "start": "node example/server.js",
     "build": "rm -rf dist/* && webpack -p --config webpack.production.config.js",
@@ -57,6 +57,6 @@
   },
   "files": [
     "package.json",
-    "dist/react-emoji.js"
+    "src/react-emoji.js"
   ]
 }
