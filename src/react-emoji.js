@@ -68,6 +68,7 @@ let ReactEmoji = () => {
     return React.createElement(
       'img',
       assign(options.attributes, {
+        key: Math.random(),
         src: buildImageUrl(hex, options)
       })
     );
@@ -85,7 +86,7 @@ let ReactEmoji = () => {
           return React.createElement(
             'img',
             assign(options.attributes, {
-              key: index,
+              key: index + Math.random(),
               src: buildImageUrl(hex, options)
             })
           );
